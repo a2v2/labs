@@ -18,7 +18,7 @@
 ## Overview
 
 ![iOS App Generation Overview](Overview.png)
-<img src="Overview.png" alt="iOS App Generation Sequence Diagram" width="1200">
+
 
 This script allows the execution of an App Builder to obtain an iOS application ready for distribution via App Store Connect.
 
@@ -95,7 +95,7 @@ TBD
 
 ### General Class Diagram
 ![iOS App Generation Classes](Classes.png)
-<img src="Classes.png" alt="iOS App Generation Sequence Diagram" width="1200">
+
 
 The Builder System internally performs tasks akin to those handled by Xcode, using xcodebuild for iOS builds. It creates necessary files like InfoPlist and assets for the iOS project before generating the binary. Similar processes are implemented for Android and Windows builds.
 
@@ -107,8 +107,6 @@ The system comprises several components, these are the 3 most important:
 ### Main App Generation Sequence Diagram
 
 ![iOS App Generation Sequence Diagram](Sequences.png)
-<img src="Sequences.png" alt="iOS App Generation Sequence Diagram" width="1200">
-
 
 ### Outputs
 
